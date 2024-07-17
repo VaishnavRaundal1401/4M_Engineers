@@ -13,7 +13,7 @@ const HomePage = () => {
       transition:{
         duration:1,
         staggerChildren:0.2
-      }
+      }   
     }
   }
   return (
