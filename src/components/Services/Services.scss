@@ -1,3 +1,41 @@
 .services{
     padding-top: 50px;
+    .servicesContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 90px;
+
+        .servicesInfo{
+            display: flex;
+            h1{
+                width: 50%;
+            }
+            span{
+                width: 50%;
+            }
+        }
+    }
+    .servicesCards{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 70px;
+
+        .cards{
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            min-height: 500px;
+            box-sizing: border-box;
+            img{
+                height: 250px;
+                padding-bottom: 30px;
+            }
+            h3{
+                padding-bottom: 30px;
+            }
+        }
+    }
 }
