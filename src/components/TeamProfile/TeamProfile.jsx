@@ -1,79 +1,95 @@
-import React from 'react'
+import React, {useRef} from 'react'
 import './TeamProfile.scss'
+import {motion, useInView} from 'framer-motion'
 const TeamProfile = () => {
+
+    const ref = useRef()
+    const isInView = useInView(ref, {margin:"-300px"}) 
+    const variants ={
+        initial:{
+            opacity:0,
+        },
+        animate:{
+            opacity:1,
+            transition:{
+                duration:2,
+                staggerChildren:0.1
+            }
+        }
+    }
   return (
-    <div className='team'>
-        <div className="teamContainer">
-            <div className="heading">
-                <span>Experienced</span>
-                <h1>Meet Our Team</h1>
-                <span>Our team is comprised of skilled professionals with diverse expertise.</span>
-            </div>
-            <div className="teamCards">
+    <motion.div className='team'>
+        <motion.div className="teamContainer" ref={ref} variants={variants} initial="initial" animate={isInView && "animate"}>
+            <motion.div className="heading" variants={variants}>
+                <motion.span>Experienced</motion.span>
+                <motion.h1>Meet Our Team</motion.h1>
+                <motion.span>Our team is comprised of skilled professionals with diverse expertise.</motion.span>
+            </motion.div>
+            <motion.div className="teamCards" variants={variants}>
 
-                <div className="profiles">
-                    <img src="/Images/gray.jpg" alt="" />
-                    <h4>Prathamesh Bachhav</h4>
-                    <span>Director</span>
-                    <span>John is responsible for overseeing project execution and ensuring timely delivery.</span>
-                    <div className="icons">
+                <motion.div className="profiles" variants={variants}>
+                    <motion.img src="/Images/gray.jpg" alt="" />
+                    <motion.h4>Prathamesh Bachhav</motion.h4>
+                    <motion.span>Director</motion.span>
+                    <motion.span>John is responsible for overseeing project execution and ensuring timely delivery.</motion.span>
+                    <motion.div className="icons">
                         {/* icons */}
-                    </div>
-                </div>
+                    </motion.div>
+                </motion.div>
 
-                <div className="profiles">
-                    <img src="/Images/gray.jpg" alt="" />
-                    <h4>Prathamesh Bachhav</h4>
-                    <span>Director</span>
-                    <span>John is responsible for overseeing project execution and ensuring timely delivery.</span>
-                    <div className="icons">
+                <motion.div className="profiles" variants={variants}>
+                    <motion.img src="/Images/gray.jpg" alt="" />
+                    <motion.h4>Prathamesh Bachhav</motion.h4>
+                    <motion.span>Director</motion.span>
+                    <motion.span>John is responsible for overseeing project execution and ensuring timely delivery.</motion.span>
+                    <motion.div className="icons">
                         {/* icons */}
-                    </div>
-                </div>
+                    </motion.div>
+                </motion.div>
 
-                <div className="profiles">
-                    <img src="/Images/gray.jpg" alt="" />
-                    <h4>Prathamesh Bachhav</h4>
-                    <span>Director</span>
-                    <span>John is responsible for overseeing project execution and ensuring timely delivery.</span>
-                    <div className="icons">
+                <motion.div className="profiles" variants={variants}>
+                    <motion.img src="/Images/gray.jpg" alt="" />
+                    <motion.h4>Prathamesh Bachhav</motion.h4>
+                    <motion.span>Director</motion.span>
+                    <motion.span>John is responsible for overseeing project execution and ensuring timely delivery.</motion.span>
+                    <motion.div className="icons">
                         {/* icons */}
-                    </div>
-                </div>
+                    </motion.div>
+                </motion.div>
 
-                <div className="profiles">
-                    <img src="/Images/gray.jpg" alt="" />
-                    <h4>Prathamesh Bachhav</h4>
-                    <span>Director</span>
-                    <span>John is responsible for overseeing project execution and ensuring timely delivery.</span>
-                    <div className="icons">
+                <motion.div className="profiles" variants={variants}>
+                    <motion.img src="/Images/gray.jpg" alt="" />
+                    <motion.h4>Prathamesh Bachhav</motion.h4>
+                    <motion.span>Director</motion.span>
+                    <motion.span>John is responsible for overseeing project execution and ensuring timely delivery.</motion.span>
+                    <motion.div className="icons">
                         {/* icons */}
-                    </div>
-                </div>
+                    </motion.div>
+                </motion.div>
 
-                <div className="profiles">
-                    <img src="/Images/gray.jpg" alt="" />
-                    <h4>Prathamesh Bachhav</h4>
-                    <span>Director</span>
-                    <span>John is responsible for overseeing project execution and ensuring timely delivery.</span>
-                    <div className="icons">
+                <motion.div className="profiles" variants={variants}>
+                    <motion.img src="/Images/gray.jpg" alt="" />
+                    <motion.h4>Prathamesh Bachhav</motion.h4>
+                    <motion.span>Director</motion.span>
+                    <motion.span>John is responsible for overseeing project execution and ensuring timely delivery.</motion.span>
+                    <motion.div className="icons">
                         {/* icons */}
-                    </div>
-                </div>
+                    </motion.div>
+                </motion.div>
 
-                <div className="profiles">
-                    <img src="/Images/gray.jpg" alt="" />
-                    <h4>Prathamesh Bachhav</h4>
-                    <span>Director</span>
-                    <span>John is responsible for overseeing project execution and ensuring timely delivery.</span>
-                    <div className="icons">
+                <motion.div className="profiles" variants={variants}>
+                    <motion.img src="/Images/gray.jpg" alt="" />
+                    <motion.h4>Prathamesh Bachhav</motion.h4>
+                    <motion.span>Director</motion.span>
+                    <motion.span>John is responsible for overseeing project execution and ensuring timely delivery.</motion.span>
+                    <motion.div className="icons">
                         {/* icons */}
-                    </div>
-                </div>
+                    </motion.div>
+                </motion.div>
 
-            </div>
-        </div>
-    </div>
+            </motion.div>
+        </motion.div>
+    </motion.div>
   )
 }
 
