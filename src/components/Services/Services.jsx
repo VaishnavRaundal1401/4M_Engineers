@@ -43,19 +43,19 @@ const Services = () => {
         <motion.div ref={ref} className="servicesCards" variants={cardVariants} initial="initial" animate={isInView && "animate"}>
 
           <motion.div className="cards" variants={cardVariants}>
-            <motion.img src="/Images/gray.jpg" alt="" />
+            <motion.img src="/Images/gray.png" alt="" />
             <motion.h3>Laser Cutting Services</motion.h3>
             <motion.span>We offer laser cutting services for various materials, including metal, wood, acrylic, and more. Our advanced laser technology ensures accurate and clean cuts, allowing for intricate designs and precise shapes.</motion.span>
           </motion.div>
 
           <motion.div className="cards"variants={cardVariants}>
-            <motion.img src="/Images/gray.jpg" alt="" />
+            <motion.img src="/Images/gray.png" alt="" />
             <motion.h3>Leather Cutting Services</motion.h3>
             <motion.span>Our leather cutting services provide precise and clean cuts for leather products, such as bags, shoes, and accessories. We can create intricate patterns and designs to enhance the visual appeal of your leather goods.</motion.span>
           </motion.div>
 
           <motion.div className="cards"variants={cardVariants}>
-            <motion.img src="/Images/gray.jpg" alt="" />
+            <motion.img src="/Images/gray.png" alt="" />
             <motion.h3>Steel Cutting Services</motion.h3>
             <motion.span>With our steel cutting services, we can accurately cut steel sheets and components for various applications. Our cutting-edge machinery ensures precise and clean cuts, meeting the highest quality standards.</motion.span>
           </motion.div>

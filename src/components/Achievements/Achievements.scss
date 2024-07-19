@@ -1,0 +1,58 @@
+.achievements{
+        display: flex;
+        flex-direction: column;
+        padding: 90px;
+    .achievementsContainer{
+        .clients{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            h5{
+                margin-right: 30px;
+            }
+            .clientLogo{
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                margin-right: 30px;
+                p{
+                    font-size: 30px;
+                    margin-right:10px ;
+                }
+            }
+        }
+
+        .Awards{
+            margin-top: 100px;
+            margin-bottom: 90px;
+            display: flex;
+            .textContainer{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                max-width: 50%;
+                h1{
+                    margin-bottom: 30px;
+                }
+            }
+            .logosContainer{
+                display: flex;
+                flex-wrap: wrap;
+                max-width: 50%;
+                justify-content: flex-end;
+                align-items: center;
+                .awardlogo{
+                    display: flex;
+                    align-items: center;
+                    padding: 10px 70px 10px 70px;
+                    margin: 3px;
+                    background-color: lightgrey;
+                    p{
+                        font-size: 30px;
+                        margin-right:10px ;
+                    }
+                }
+            }
+        }
+    }
+}

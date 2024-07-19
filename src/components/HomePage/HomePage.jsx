@@ -19,7 +19,7 @@ const HomePage = () => {
   return (
     <motion.div className='homepage'>
       <div className="backgroundImage">
-        <img src='/Images/homePage_Background.jpg' alt='About Background' />
+        <img src='/Images/gray.png' alt='About Background' />
       </div>
       <motion.div className="homeContainer" variants={Variants} initial="initial" animate="animate">
         <motion.h1 variants={Variants}>Providing Laser, Leather, and Steel Cutting Services</motion.h1>

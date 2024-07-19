@@ -1,4 +1,5 @@
 import './App.scss';
+import Achievements from './components/Achievements/Achievements';
 import HomePage from './components/HomePage/HomePage';
 import Navbar from './components/Navbar/Navbar';
 import Services from './components/Services/Services';
@@ -16,6 +17,9 @@ function App() {
       </section>
       <section id='Team'>
         <TeamProfile/>
+      </section>
+      <section>
+        <Achievements/>
       </section>
     </div>
   );

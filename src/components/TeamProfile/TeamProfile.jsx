@@ -28,7 +28,7 @@ const TeamProfile = () => {
             <motion.div className="teamCards" variants={variants}>
 
                 <motion.div className="profiles" variants={variants}>
-                    <motion.img src="/Images/gray.jpg" alt="" />
+                    <motion.img src="/Images/gray.png" alt="" />
                     <motion.h4>Prathamesh Bachhav</motion.h4>
                     <motion.span>Director</motion.span>
                     <motion.span>John is responsible for overseeing project execution and ensuring timely delivery.</motion.span>
@@ -38,7 +38,7 @@ const TeamProfile = () => {
                 </motion.div>
 
                 <motion.div className="profiles" variants={variants}>
-                    <motion.img src="/Images/gray.jpg" alt="" />
+                    <motion.img src="/Images/gray.png" alt="" />
                     <motion.h4>Prathamesh Bachhav</motion.h4>
                     <motion.span>Director</motion.span>
                     <motion.span>John is responsible for overseeing project execution and ensuring timely delivery.</motion.span>
@@ -48,7 +48,7 @@ const TeamProfile = () => {
                 </motion.div>
 
                 <motion.div className="profiles" variants={variants}>
-                    <motion.img src="/Images/gray.jpg" alt="" />
+                    <motion.img src="/Images/gray.png" alt="" />
                     <motion.h4>Prathamesh Bachhav</motion.h4>
                     <motion.span>Director</motion.span>
                     <motion.span>John is responsible for overseeing project execution and ensuring timely delivery.</motion.span>
@@ -58,7 +58,7 @@ const TeamProfile = () => {
                 </motion.div>
 
                 <motion.div className="profiles" variants={variants}>
-                    <motion.img src="/Images/gray.jpg" alt="" />
+                    <motion.img src="/Images/gray.png" alt="" />
                     <motion.h4>Prathamesh Bachhav</motion.h4>
                     <motion.span>Director</motion.span>
                     <motion.span>John is responsible for overseeing project execution and ensuring timely delivery.</motion.span>
@@ -68,7 +68,7 @@ const TeamProfile = () => {
                 </motion.div>
 
                 <motion.div className="profiles" variants={variants}>
-                    <motion.img src="/Images/gray.jpg" alt="" />
+                    <motion.img src="/Images/gray.png" alt="" />
                     <motion.h4>Prathamesh Bachhav</motion.h4>
                     <motion.span>Director</motion.span>
                     <motion.span>John is responsible for overseeing project execution and ensuring timely delivery.</motion.span>
@@ -78,7 +78,7 @@ const TeamProfile = () => {
                 </motion.div>
 
                 <motion.div className="profiles" variants={variants}>
-                    <motion.img src="/Images/gray.jpg" alt="" />
+                    <motion.img src="/Images/gray.png" alt="" />
                     <motion.h4>Prathamesh Bachhav</motion.h4>
                     <motion.span>Director</motion.span>
                     <motion.span>John is responsible for overseeing project execution and ensuring timely delivery.</motion.span>
