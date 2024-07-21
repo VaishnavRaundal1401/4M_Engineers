@@ -5,7 +5,8 @@ import {motion, useInView} from 'framer-motion'
 
 const Achievements = () => {
 
-    const ref = useRef()
+    const ref = useRef();
+    const logoRef = useRef();
     const isInView = useInView(ref, {margin:"-200px"}) 
     const textVariants = {
         initial:{
@@ -24,7 +25,7 @@ const Achievements = () => {
 
     const logosVariants = {
         initial:{
-        x:300,
+        x:-400,
         opacity:0
         },
         animate:{
@@ -69,7 +70,7 @@ const Achievements = () => {
                     <motion.h1 variants={textVariants}>Recognitions and Awards</motion.h1>
                     <motion.h5 variants={textVariants}>We are proud to have received industry recognition for our exceptional work.</motion.h5>
                 </motion.div>
-                <motion.div ref={ref} className="logosContainer" variants={logosVariants} initial="initial" animate={isInView && "animate"}>
+                <motion.div ref={logoRef} className="logosContainer" variants={logosVariants} initial="initial" animate={isInView && "animate"}>
                     <motion.div variants={logosVariants}  className="awardlogo">
                         <p><TiGroup /></p>
                         <h4>WebFlow</h4>
