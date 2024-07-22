@@ -1,0 +1,29 @@
+.contactContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 90px 90px 90px;
+    .contactHeading{
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        span{
+            font-weight: 500;
+        }
+        h6{
+            font-weight: 400;
+        }
+    }
+    .contactDetails{
+        display: flex;
+        justify-content: space-between;
+        padding: 70px 0px 50px 0px;
+        .detailsCard{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            p{
+                font-size: 50px;
+            }
+        }
+    }
+}
