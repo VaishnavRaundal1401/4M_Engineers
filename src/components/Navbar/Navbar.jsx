@@ -11,7 +11,7 @@ const Navbar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul className="navbar-nav">
+            <ul className="navbar-nav ms-auto">
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#HomePage">Home</a>
               </li>
@@ -20,6 +20,12 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#Team">Team</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#Achievements">Achievements</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#Contact">Contact</a>
               </li>
             </ul>
           </div>

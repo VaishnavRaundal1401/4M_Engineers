@@ -7,13 +7,15 @@ const TeamProfile = () => {
     const isInView = useInView(ref, {margin:"-300px"}) 
     const variants ={
         initial:{
+            y:70,
             opacity:0,
         },
         animate:{
+            y:0,
             opacity:1,
             transition:{
-                duration:2,
-                staggerChildren:0.1
+                duration:0.5,
+                staggerChildren:0.2
             }
         }
     }

@@ -1,0 +1,22 @@
+.footerContainer{
+    padding: 90px;
+    .footerContent{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+    .links{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        font-weight: 500;
+    }
+    hr{
+        padding: 1px 0px 1px 0px;
+    }
+    .footerMark{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+}

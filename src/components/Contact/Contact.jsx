@@ -1,8 +1,5 @@
 import React, { useRef } from 'react'
 import './Contact.scss';
-import { MdMailOutline } from "react-icons/md";
-import { FiPhone } from "react-icons/fi";
-import { GrLocation } from "react-icons/gr";
 import {motion, useInView} from 'framer-motion'
 
 const Contact = () => {
