@@ -1,31 +1,32 @@
 import React from 'react';
-import './Navbar.scss'; 
+import { HashLink as Link } from 'react-router-hash-link';
+import './Navbar.scss';
 
 const Navbar = () => {
   return (
     <div className='Navbar'>
       <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#HomePage">4M-Engineers</a>
+          <Link className="navbar-brand" smooth to="/">4M-Engineers</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#HomePage">Home</a>
+                <Link className="nav-link" smooth to="/#HomePage">Home</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#Services">Services</a>
+                <Link className="nav-link" smooth to="/Services">Services</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#Team">Team</a>
+                <Link className="nav-link" smooth to="/Team">Team</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#Achievements">Achievements</a>
+                <Link className="nav-link" smooth to="/#Achievements">Achievements</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#Contact">Contact</a>
+                <Link className="nav-link" smooth to="/Contact">Contact</Link>
               </li>
             </ul>
           </div>
