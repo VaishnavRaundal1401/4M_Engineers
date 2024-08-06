@@ -27,10 +27,31 @@ const TeamProfile = () => {
                 <motion.h1>Meet Our Team</motion.h1>
                 <motion.span>Our team is comprised of skilled professionals with diverse expertise.</motion.span>
             </motion.div>
+            <motion.div className="leaderProfile">
+                    <motion.div className="profiles" variants={variants}>
+                        <motion.img src="/Images/O1.jpg" alt="" />
+                        <motion.h4>Prathamesh Bachhav</motion.h4>
+                        <motion.span>Director</motion.span>
+                        <motion.span>John is responsible for overseeing project execution and ensuring timely delivery.</motion.span>
+                        <motion.div className="icons">
+                            {/* icons */}
+                        </motion.div>
+                    </motion.div>
+                    <motion.div className="profiles" variants={variants}>
+                        <motion.img src="/Images/O2.jpg" alt="" />
+                        <motion.h4>Prathamesh Bachhav</motion.h4>
+                        <motion.span>Director</motion.span>
+                        <motion.span>John is responsible for overseeing project execution and ensuring timely delivery.</motion.span>
+                        <motion.div className="icons">
+                            {/* icons */}
+                        </motion.div>
+                    </motion.div>
+            </motion.div>
+
             <motion.div className="teamCards" variants={variants}>
 
                 <motion.div className="profiles" variants={variants}>
-                    <motion.img src="/Images/gray.png" alt="" />
+                    <motion.img src="/Images/i1.jpg" alt="" />
                     <motion.h4>Prathamesh Bachhav</motion.h4>
                     <motion.span>Director</motion.span>
                     <motion.span>John is responsible for overseeing project execution and ensuring timely delivery.</motion.span>
@@ -40,7 +61,7 @@ const TeamProfile = () => {
                 </motion.div>
 
                 <motion.div className="profiles" variants={variants}>
-                    <motion.img src="/Images/gray.png" alt="" />
+                    <motion.img src="/Images/i2.jpg" alt="" />
                     <motion.h4>Prathamesh Bachhav</motion.h4>
                     <motion.span>Director</motion.span>
                     <motion.span>John is responsible for overseeing project execution and ensuring timely delivery.</motion.span>
@@ -50,7 +71,7 @@ const TeamProfile = () => {
                 </motion.div>
 
                 <motion.div className="profiles" variants={variants}>
-                    <motion.img src="/Images/gray.png" alt="" />
+                    <motion.img src="/Images/i3.jpg" alt="" />
                     <motion.h4>Prathamesh Bachhav</motion.h4>
                     <motion.span>Director</motion.span>
                     <motion.span>John is responsible for overseeing project execution and ensuring timely delivery.</motion.span>
@@ -60,7 +81,7 @@ const TeamProfile = () => {
                 </motion.div>
 
                 <motion.div className="profiles" variants={variants}>
-                    <motion.img src="/Images/gray.png" alt="" />
+                    <motion.img src="/Images/i4.jpg" alt="" />
                     <motion.h4>Prathamesh Bachhav</motion.h4>
                     <motion.span>Director</motion.span>
                     <motion.span>John is responsible for overseeing project execution and ensuring timely delivery.</motion.span>
@@ -70,7 +91,7 @@ const TeamProfile = () => {
                 </motion.div>
 
                 <motion.div className="profiles" variants={variants}>
-                    <motion.img src="/Images/gray.png" alt="" />
+                    <motion.img src="/Images/i5.jpg" alt="" />
                     <motion.h4>Prathamesh Bachhav</motion.h4>
                     <motion.span>Director</motion.span>
                     <motion.span>John is responsible for overseeing project execution and ensuring timely delivery.</motion.span>
@@ -80,7 +101,137 @@ const TeamProfile = () => {
                 </motion.div>
 
                 <motion.div className="profiles" variants={variants}>
-                    <motion.img src="/Images/gray.png" alt="" />
+                    <motion.img src="/Images/i6.jpg" alt="" />
+                    <motion.h4>Prathamesh Bachhav</motion.h4>
+                    <motion.span>Director</motion.span>
+                    <motion.span>John is responsible for overseeing project execution and ensuring timely delivery.</motion.span>
+                    <motion.div className="icons">
+                        {/* icons */}
+                    </motion.div>
+                </motion.div>
+
+                <motion.div className="profiles" variants={variants}>
+                    <motion.img src="/Images/i7.jpg" alt="" />
+                    <motion.h4>Prathamesh Bachhav</motion.h4>
+                    <motion.span>Director</motion.span>
+                    <motion.span>John is responsible for overseeing project execution and ensuring timely delivery.</motion.span>
+                    <motion.div className="icons">
+                        {/* icons */}
+                    </motion.div>
+                </motion.div>
+
+                <motion.div className="profiles" variants={variants}>
+                    <motion.img src="/Images/i8.jpg" alt="" />
+                    <motion.h4>Prathamesh Bachhav</motion.h4>
+                    <motion.span>Director</motion.span>
+                    <motion.span>John is responsible for overseeing project execution and ensuring timely delivery.</motion.span>
+                    <motion.div className="icons">
+                        {/* icons */}
+                    </motion.div>
+                </motion.div>
+
+                <motion.div className="profiles" variants={variants}>
+                    <motion.img src="/Images/i9.jpg" alt="" />
+                    <motion.h4>Prathamesh Bachhav</motion.h4>
+                    <motion.span>Director</motion.span>
+                    <motion.span>John is responsible for overseeing project execution and ensuring timely delivery.</motion.span>
+                    <motion.div className="icons">
+                        {/* icons */}
+                    </motion.div>
+                </motion.div>
+
+                <motion.div className="profiles" variants={variants}>
+                    <motion.img src="/Images/i10.jpg" alt="" />
+                    <motion.h4>Prathamesh Bachhav</motion.h4>
+                    <motion.span>Director</motion.span>
+                    <motion.span>John is responsible for overseeing project execution and ensuring timely delivery.</motion.span>
+                    <motion.div className="icons">
+                        {/* icons */}
+                    </motion.div>
+                </motion.div>
+
+                <motion.div className="profiles" variants={variants}>
+                    <motion.img src="/Images/i11.jpg" alt="" />
+                    <motion.h4>Prathamesh Bachhav</motion.h4>
+                    <motion.span>Director</motion.span>
+                    <motion.span>John is responsible for overseeing project execution and ensuring timely delivery.</motion.span>
+                    <motion.div className="icons">
+                        {/* icons */}
+                    </motion.div>
+                </motion.div>
+
+                <motion.div className="profiles" variants={variants}>
+                    <motion.img src="/Images/i12.jpg" alt="" />
+                    <motion.h4>Prathamesh Bachhav</motion.h4>
+                    <motion.span>Director</motion.span>
+                    <motion.span>John is responsible for overseeing project execution and ensuring timely delivery.</motion.span>
+                    <motion.div className="icons">
+                        {/* icons */}
+                    </motion.div>
+                </motion.div>
+
+                <motion.div className="profiles" variants={variants}>
+                    <motion.img src="/Images/i13.jpg" alt="" />
+                    <motion.h4>Prathamesh Bachhav</motion.h4>
+                    <motion.span>Director</motion.span>
+                    <motion.span>John is responsible for overseeing project execution and ensuring timely delivery.</motion.span>
+                    <motion.div className="icons">
+                        {/* icons */}
+                    </motion.div>
+                </motion.div>
+
+                <motion.div className="profiles" variants={variants}>
+                    <motion.img src="/Images/i14.jpg" alt="" />
+                    <motion.h4>Prathamesh Bachhav</motion.h4>
+                    <motion.span>Director</motion.span>
+                    <motion.span>John is responsible for overseeing project execution and ensuring timely delivery.</motion.span>
+                    <motion.div className="icons">
+                        {/* icons */}
+                    </motion.div>
+                </motion.div>
+
+                <motion.div className="profiles" variants={variants}>
+                    <motion.img src="/Images/i15.jpg" alt="" />
+                    <motion.h4>Prathamesh Bachhav</motion.h4>
+                    <motion.span>Director</motion.span>
+                    <motion.span>John is responsible for overseeing project execution and ensuring timely delivery.</motion.span>
+                    <motion.div className="icons">
+                        {/* icons */}
+                    </motion.div>
+                </motion.div>
+
+                <motion.div className="profiles" variants={variants}>
+                    <motion.img src="/Images/i16.jpg" alt="" />
+                    <motion.h4>Prathamesh Bachhav</motion.h4>
+                    <motion.span>Director</motion.span>
+                    <motion.span>John is responsible for overseeing project execution and ensuring timely delivery.</motion.span>
+                    <motion.div className="icons">
+                        {/* icons */}
+                    </motion.div>
+                </motion.div>
+
+                <motion.div className="profiles" variants={variants}>
+                    <motion.img src="/Images/i17.jpg" alt="" />
+                    <motion.h4>Prathamesh Bachhav</motion.h4>
+                    <motion.span>Director</motion.span>
+                    <motion.span>John is responsible for overseeing project execution and ensuring timely delivery.</motion.span>
+                    <motion.div className="icons">
+                        {/* icons */}
+                    </motion.div>
+                </motion.div>
+
+                <motion.div className="profiles" variants={variants}>
+                    <motion.img src="/Images/i18.jpg" alt="" />
+                    <motion.h4>Prathamesh Bachhav</motion.h4>
+                    <motion.span>Director</motion.span>
+                    <motion.span>John is responsible for overseeing project execution and ensuring timely delivery.</motion.span>
+                    <motion.div className="icons">
+                        {/* icons */}
+                    </motion.div>
+                </motion.div>
+
+                <motion.div className="profiles" variants={variants}>
+                    <motion.img src="/Images/i19.jpg" alt="" />
                     <motion.h4>Prathamesh Bachhav</motion.h4>
                     <motion.span>Director</motion.span>
                     <motion.span>John is responsible for overseeing project execution and ensuring timely delivery.</motion.span>
