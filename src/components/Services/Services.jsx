@@ -38,7 +38,7 @@ const Services = () => {
       <motion.div ref={ref} className="servicesContainer">
         <motion.div className="servicesInfo" variants={Variants} initial="initial" animate={isInView && "animate"}>
           <motion.h1 variants={Variants}>Precision Cutting Services for Various Materials</motion.h1>
-          <motion.span variants={Variants}>Our company specializes in providing high-quality laser, leather, and steel cutting services. With state-of-the-art machinery and a team of skilled professionals, we deliver precise and efficient cutting solutions for a wide range of materials. Whether you need intricate designs on leather products, precise metal components, or custom laser-cut patterns, we have the expertise and technology to meet your requirements.</motion.span>
+          <motion.span variants={Variants}>Our company specializes in providing high-quality steel cutting services. With state-of-the-art machinery and a team of skilled professionals, we deliver precise and efficient cutting solutions for a wide range of materials. Whether you need  precise metal components we have the expertise and technology to meet your requirements.</motion.span>
         </motion.div>
         <motion.div ref={ref} className="servicesCards" variants={cardVariants} initial="initial" animate={isInView && "animate"}>
 
