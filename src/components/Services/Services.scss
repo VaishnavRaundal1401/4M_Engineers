@@ -17,25 +17,103 @@
             }
         }
     }
-    .servicesCards{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 70px;
 
-        .cards{
-            display: flex;
-            flex-direction: column;
-            padding: 10px;
-            min-height: 500px;
-            box-sizing: border-box;
-            img{
-                height: 250px;
-                padding-bottom: 30px;
+    .welcomeSection{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+
+        .textSection{
+            width: 50%;
+            p{
+                padding-top: 10px;
             }
-            h3{
-                padding-bottom: 30px;
+        }
+        .imgSection{
+            width: 50%;
+            img{
+                margin-left: 100px;
+                width: 500px;
+                height: 500px;
             }
         }
     }
+
+    .Quality{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+
+        .qText{
+            width: 50%;
+            h1{
+                padding-bottom: 10px;
+            }
+            .typesOfServices{
+                margin-top: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                p{
+                    padding-top: 10px;
+                    
+                }
+                .serviceCards{
+                    display: flex;
+                    flex-direction: column;
+                    span{
+                        padding-bottom: 10px;
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+        .qImg{
+            width: 50%;
+            img{
+                margin-left: 100px;
+                width: 500px;
+                height: 500px;
+            }
+        }
+    }
+
+    .customerSatisfaction{
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+        justify-content: space-between;
+        margin-top: 100px;
+        .servicesInfo{
+            display: flex;
+            flex-direction: column;
+            span{
+                margin-top: 10px;
+            }
+        }
+        .servicesCards{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 70px;
+    
+            .cards{
+                display: flex;
+                flex-direction: column;
+                padding: 10px;
+                min-height: 500px;
+                box-sizing: border-box;
+                img{
+                    height: 250px;
+                    padding-bottom: 30px;
+                }
+                h3{
+                    padding-bottom: 30px;
+                }
+            }
+        }
+    }
+
 }
