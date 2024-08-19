@@ -37,12 +37,6 @@ const Services = () => {
   return (
     <motion.div className='services'>
       <motion.div ref={ref} className="servicesContainer">
-
-        <motion.div className="servicesInfo" variants={Variants} initial="initial" animate={isInView && "animate"}>
-          <motion.h1 variants={Variants}>Precision Cutting Services for Various Materials</motion.h1>
-          <motion.span variants={Variants}>Our company specializes in providing high-quality steel cutting services. With state-of-the-art machinery and a team of skilled professionals, we deliver precise and efficient cutting solutions for a wide range of materials. Whether you need  precise metal components we have the expertise and technology to meet your requirements.</motion.span>
-        </motion.div>
-
         <div className="welcomeSection">
             <div className="textSection">
                 <h1>Welcome to our Steel Cutting Services</h1>
@@ -76,12 +70,13 @@ const Services = () => {
         </div>
 
 
-        <div className="customerSatisfaction">
+        <motion.div ref={ref} className="customerSatisfaction">
+
           <motion.div className="servicesInfo" variants={Variants} initial="initial" animate={isInView && "animate"}>
               <motion.h1 variants={Variants}>Precision and Customer Satisfaction</motion.h1>
               <motion.span variants={Variants}>Our services are designed to provide the highest level of quality, precision, and customer satisfaction. With state-of-the-art equipment and a team of skilled professionals, we ensure that every project is completed to perfection.</motion.span>
           </motion.div>
-          <motion.div ref={ref} className="servicesCards" variants={cardVariants} initial="initial" animate={isInView && "animate"}>
+          <motion.div className="servicesCards" variants={cardVariants} initial="initial" animate={isInView && "animate"}>
 
             <motion.div className="cards" variants={cardVariants}>
               <motion.img src="/Images/gray.png" alt="" />
@@ -102,7 +97,51 @@ const Services = () => {
             </motion.div>
 
           </motion.div>
-        </div>
+        </motion.div>
+
+        <div className="gridCards">
+          {/* <h1>Precision Steel Cutting Services</h1>
+          <span>We offer a range of precision steel cutting services.</span> */}
+
+            <div className="leftSection">
+
+                <div className="punchingServices">
+                  <div className="PStext">
+                    <h2>High-Quality Punching Services</h2>
+                    <span>Our punching services are known for their precision and efficiency.</span>
+                  </div>
+                  <img src="/Images/gray.png" alt="" />
+                </div>
+
+                <div className="servicesTypes">
+                  <div className="grinding">
+                    <p><HiCube /></p>
+                    <h3>Grinding Services</h3>
+                    <span>We provide professional grinding services for various steel products.</span>
+                  </div>
+                  <div className="laser">
+                    <p><HiCube /></p>
+                    <h3>Laser Cutting</h3>
+                    <span>Experience the precision of our laser cutting services.</span>
+                  </div>
+                </div>
+
+            </div>
+
+            <div className="rightSection">
+
+                <div className="steelFabrication">
+                  <img src="/Images/gray.png" alt="" />
+                  <div className="SFtext">
+                    <h2>High-Quality Punching Services</h2>
+                    <span>Our punching services are known for their precision and efficiency.</span>
+                  </div>
+                </div>
+                
+            </div>
+
+          </div>
+
       </motion.div>
     </motion.div>
   )

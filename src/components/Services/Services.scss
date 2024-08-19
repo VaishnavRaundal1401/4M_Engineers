@@ -6,23 +6,12 @@
         align-items: center;
         justify-content: space-between;
         padding: 90px;
-
-        .servicesInfo{
-            display: flex;
-            h1{
-                width: 50%;
-            }
-            span{
-                width: 50%;
-            }
-        }
     }
 
     .welcomeSection{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 100px;
 
         .textSection{
             width: 50%;
@@ -111,6 +100,40 @@
                 }
                 h3{
                     padding-bottom: 30px;
+                }
+            }
+        }
+    }
+
+    .gridCards{
+        margin-top: 100px;
+        text-align: center;
+        display: flex;
+        .leftSection{
+            width: 50%;
+            .punchingServices{
+                display: flex;
+                flex-direction: column;
+                border: 2px solid lightgray;
+                .PStext{
+                    padding: 30px 10px;
+                }
+            }
+            .servicesTypes{
+                display: flex;
+            }
+        }
+        .rightSection{
+            width: 50%;
+
+            .steelFabrication{
+                display: flex;
+                .SFtext{
+                    padding: 30px 10px;
+                }
+                img{
+                    width: 250px;
+                    height: 300px;
                 }
             }
         }
