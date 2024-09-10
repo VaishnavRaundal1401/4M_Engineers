@@ -107,7 +107,6 @@
 
     .gridCards{
         margin-top: 100px;
-        text-align: center;
         display: flex;
         .leftSection{
             width: 50%;
@@ -121,6 +120,19 @@
             }
             .servicesTypes{
                 display: flex;
+                margin-top: 10px;
+                p{
+                    font-size: 30px;
+                }
+                .grinding{
+                    border: 2px solid lightgrey;
+                    padding: 10px;
+                }
+                .laser{
+                    padding: 10px;
+                    border: 2px solid lightgrey;
+                    margin-left: 10px;
+                }
             }
         }
         .rightSection{
@@ -128,12 +140,27 @@
 
             .steelFabrication{
                 display: flex;
+                border: 2px solid lightgrey;
+                margin-left: 10px;
                 .SFtext{
                     padding: 30px 10px;
                 }
                 img{
                     width: 250px;
                     height: 300px;
+                }
+            }
+            .punchingServices{
+                display: flex;
+                flex-direction: column;
+                border: 2px solid lightgray;
+                margin-left: 10px;
+                margin-top: 10px;
+                .PStext{
+                    padding: 30px 10px;
+                }
+                img{
+                    height: 211px;
                 }
             }
         }

@@ -2,6 +2,7 @@ import React, {useRef} from 'react'
 import './Services.scss'
 import {motion, useInView} from 'framer-motion'
 import { HiCube } from "react-icons/hi";
+import Footer from '../Footer/Footer';
 const Services = () => {
 
   const ref = useRef()
@@ -133,10 +134,19 @@ const Services = () => {
                 <div className="steelFabrication">
                   <img src="/Images/gray.png" alt="" />
                   <div className="SFtext">
+                    <h2>Custom Steel Fabrication</h2>
+                    <span>We offer custom steel fabrication services to meet your specific needs.</span>
+                  </div>
+                </div>
+
+                <div className="punchingServices">
+                  <div className="PStext">
                     <h2>High-Quality Punching Services</h2>
                     <span>Our punching services are known for their precision and efficiency.</span>
                   </div>
+                  <img src="/Images/gray.png" alt="" />
                 </div>
+                
                 
             </div>
 
