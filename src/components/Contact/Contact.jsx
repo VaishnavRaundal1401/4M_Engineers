@@ -1,7 +1,6 @@
 import React, { useRef } from 'react'
 import './Contact.scss';
 import {motion, useInView} from 'framer-motion'
-import Footer from '../Footer/Footer';
 
 const Contact = () => {
 

@@ -2,7 +2,6 @@ import React, {useRef} from 'react'
 import './Services.scss'
 import {motion, useInView} from 'framer-motion'
 import { HiCube } from "react-icons/hi";
-import Footer from '../Footer/Footer';
 const Services = () => {
 
   const ref = useRef()
@@ -40,33 +39,36 @@ const Services = () => {
       <motion.div ref={ref} className="servicesContainer">
         <div className="welcomeSection">
             <div className="textSection">
-                <h1>Welcome to our Steel Cutting Services</h1>
-                <p>We offer a wide range of steel cutting services, including punching, grinding, and laser cutting. Our team of experts ensures precise and efficient results for all your cutting needs.</p>
+                <h1>Welcome to our Laser Cutting Services</h1>
+                <p>Our laser cutting services deliver precise and high-quality results for various metal      applications.
+                  2D Laser Cutting: We specialize in cutting stainless steel (SS), alloy steel (RS), and mild steel (MS) with high accuracy. This process allows for intricate designs and clean edges in flat metal sheets.
+                  3D Laser Cutting: Our 3D laser cutting capabilities enable the creation of complex, three-dimensional metal components. This technique is ideal for producing detailed geometries and contours in SS, RS, and MS.
+                  Utilizing advanced technology, we ensure superior precision and finish in every metal cutting project..</p>
             </div>
             <div className="imgSection">
-              <img src='/Images/gray.png' alt='About Background' />
+              <img src='/Images/laser.jpg' alt='About Background' />
             </div>
         </div>
 
         <div className="Quality">
           <div className="qText">
-            <h1>Superior Steel Cutting Services for Precision Results</h1>
-            <p>Our steel cutting services provide exceptional precision and quality, ensuring your projects are completed with accuracy and efficiency. With state-of-the-art equipment and a team of skilled professionals, we deliver superior results that meet your exact specifications.</p>
+            <h1>CNC and VMC Work</h1>
+            <p>Our CNC and VMC machining services are designed to deliver unparalleled precision and versatility for metal components. Using cutting-edge technology, we expertly handle complex designs and tight tolerances in stainless steel (SS), alloy steel (RS), and mild steel (MS). CNC machining ensures detailed and accurate results for intricate parts, while VMC machining provides flexibility for a wide range of geometries and advanced operations. Together, these services guarantee top-quality outcomes for every project.</p>
             <div className="typesOfServices">
                 <div className="serviceCards">
                   <span><HiCube /></span>
-                  <h4>Punching</h4>
-                  <p>High-speed punching machines for precise hole placement and fast production turnaround.</p>
+                  <h4>CNC</h4>
+                  <p>We utilize computer-controlled machines to create complex parts from stainless steel (SS), alloy steel (RS), and mild steel (MS). Our CNC technology ensures high accuracy and repeatability for intricate designs and tight tolerances.</p>
                 </div>
                 <div className="serviceCards">
                   <span><HiCube /></span>
-                  <h4>Grinding</h4>
-                  <p>Advanced grinding techniques for smooth edges and precise surface finishes on steel components.</p>
+                  <h4>VMC</h4>
+                  <p>Our Vertical Machining Centers (VMC) offer versatile machining solutions for various metal components. With the ability to handle complex geometries and multi-axis operations, VMC machining is ideal for detailed and precise metalwork.</p>
                 </div>
             </div>
           </div>
           <div className="qImg">
-            <img src='/Images/gray.png' alt='About Background' />
+            <img src='/Images/cnc.jpg' alt='About Background' />
           </div>
         </div>
 
@@ -80,20 +82,20 @@ const Services = () => {
           <motion.div className="servicesCards" variants={cardVariants} initial="initial" animate={isInView && "animate"}>
 
             <motion.div className="cards" variants={cardVariants}>
-              <motion.img src="/Images/gray.png" alt="" />
-              <motion.h3>Punching and Grinding</motion.h3>
-              <motion.span>We offer a wide range of punching and grinding services, utilizing advanced techniques to deliver precise results.</motion.span>
+              <motion.img src="/Images/bending.jpg" alt="" />
+              <motion.h3>Bending</motion.h3>
+              <motion.span>We offer a wide range of punching and grinding services, utilizing advance techniques to deliver precise results.</motion.span>
             </motion.div>
 
             <motion.div className="cards"variants={cardVariants}>
               <motion.img src="/Images/gray.png" alt="" />
-              <motion.h3>Laser Cutting</motion.h3>
+              <motion.h3>Punching</motion.h3>
               <motion.span>Experience the power of laser cutting with our cutting-edge technology and expert craftsmanship.</motion.span>
             </motion.div>
 
             <motion.div className="cards"variants={cardVariants}>
               <motion.img src="/Images/gray.png" alt="" />
-              <motion.h3>High-Quality Products</motion.h3>
+              <motion.h3>Grinding</motion.h3>
               <motion.span>Our products are known for their exceptional quality and durability, meeting the highest industry standards.</motion.span>
             </motion.div>
 

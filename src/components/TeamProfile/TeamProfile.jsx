@@ -30,7 +30,7 @@ const TeamProfile = () => {
             <motion.div className="leaderProfile">
                     <motion.div className="profiles" variants={variants}>
                         <motion.img src="/Images/O1.jpg" alt="" />
-                        <motion.h4>Prathamesh Bachhav</motion.h4>
+                        <motion.h4>Mr.Bhaurao Bachhav</motion.h4>
                         <motion.span>Director</motion.span>
                         <motion.span>John is responsible for overseeing project execution and ensuring timely delivery.</motion.span>
                         <motion.div className="icons">
@@ -39,7 +39,7 @@ const TeamProfile = () => {
                     </motion.div>
                     <motion.div className="profiles" variants={variants}>
                         <motion.img src="/Images/O2.jpg" alt="" />
-                        <motion.h4>Prathamesh Bachhav</motion.h4>
+                        <motion.h4>Mr.Sachin Mahajan</motion.h4>
                         <motion.span>Director</motion.span>
                         <motion.span>John is responsible for overseeing project execution and ensuring timely delivery.</motion.span>
                         <motion.div className="icons">
