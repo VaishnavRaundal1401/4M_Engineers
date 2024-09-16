@@ -1,44 +1,91 @@
-.homepage{
+@import "../../App.scss";
+.homepage {
+    position: relative;
     padding-top: 50px;
     height: calc(100vh - 50px);
-    .homeContainer{
+
+    .backgroundImage {
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+            z-index: 1; 
+            // transition: 1s ease;
+            transition: background 4s ease;
+        }
+
+        &:hover::before {
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55));
+            // transition: 1s ease;
+            transition: background 4s ease;
+        }
+    }
+
+    .homeContainer {
         position: relative;
         margin-left: 50px;
         margin-top: 150px;
         color: rgb(163, 156, 156);
-        h1{
-            width: 40%;
-            color: white;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 60%;
+        @include mobile{
+            margin-top: 90px;
+            width: 80vw;
         }
-        span{
-            width: 40%;
+        h1 {
+            color: white;
+            @include mobile{
+                font-size: 46px;
+            }
+        }
+
+        span {
             margin-top: 30px;
             display: block;
             color: white;
+            @include mobile{
+                display: none;
+            }
         }
-        button{
+
+        button {
             margin-top: 30px;
             margin-right: 10px;
             padding: 10px 20px;
         }
-        .contactbtn{
+
+        .contactbtn {
             background-color: rgb(46, 44, 44);
             color: white;
             border: 3px solid rgb(46, 44, 44);
         }
-        .servicesbtn{
+
+        .servicesbtn {
             background-color: transparent;
             color: white;
-            border: 3px solid grey
+            border: 3px solid grey;
         }
-    }
-    .backgroundImage{
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        img{
-            width: 100%;
-            height: 100vh;
+        .homebuttons{
+            display: flex;
+            flex-wrap: wrap;
         }
     }
 }

@@ -40,10 +40,14 @@ const Services = () => {
         <div className="welcomeSection">
             <div className="textSection">
                 <h1>Welcome to our Laser Cutting Services</h1>
-                <p>Our laser cutting services deliver precise and high-quality results for various metal      applications.
-                  2D Laser Cutting: We specialize in cutting stainless steel (SS), alloy steel (RS), and mild steel (MS) with high accuracy. This process allows for intricate designs and clean edges in flat metal sheets.
-                  3D Laser Cutting: Our 3D laser cutting capabilities enable the creation of complex, three-dimensional metal components. This technique is ideal for producing detailed geometries and contours in SS, RS, and MS.
-                  Utilizing advanced technology, we ensure superior precision and finish in every metal cutting project..</p>
+                <ul>
+                  <li>Our laser cutting services deliver precise and high-quality results for various metal applications.</li>
+                  <li>2D Laser Cutting: We specialize in cutting stainless steel (SS), alloy steel (RS), and mild steel (MS) with high accuracy.</li>
+                  <li>This process allows for intricate designs and clean edges in flat metal sheets.</li>
+                  <li>3D Laser Cutting: Our 3D laser cutting capabilities enable the creation of complex, three-dimensional metal components.</li>
+                  <li> This technique is ideal for producing detailed geometries and contours in SS, RS, and MS.</li>
+                  <li>Utilizing advanced technology, we ensure superior precision and finish in every metal cutting project.</li>
+                </ul>
             </div>
             <div className="imgSection">
               <img src='/Images/laser.jpg' alt='About Background' />
@@ -53,12 +57,15 @@ const Services = () => {
         <div className="Quality">
           <div className="qText">
             <h1>CNC and VMC Work</h1>
-            <p>Our CNC and VMC machining services are designed to deliver unparalleled precision and versatility for metal components. Using cutting-edge technology, we expertly handle complex designs and tight tolerances in stainless steel (SS), alloy steel (RS), and mild steel (MS). CNC machining ensures detailed and accurate results for intricate parts, while VMC machining provides flexibility for a wide range of geometries and advanced operations. Together, these services guarantee top-quality outcomes for every project.</p>
+            <p>Our CNC and VMC machining services are designed to deliver unparalleled precision and versatility for metal components. Using cutting-edge technology, we expertly handle complex designs and tight tolerances in stainless steel (SS), alloy steel (RS), and mild steel (MS).</p>
+            <br />
+            <p> CNC machining ensures detailed and accurate results for intricate parts, while VMC machining provides flexibility for a wide range of geometries and advanced operations. Together, these services guarantee top-quality outcomes for every project.</p>
             <div className="typesOfServices">
                 <div className="serviceCards">
                   <span><HiCube /></span>
                   <h4>CNC</h4>
-                  <p>We utilize computer-controlled machines to create complex parts from stainless steel (SS), alloy steel (RS), and mild steel (MS). Our CNC technology ensures high accuracy and repeatability for intricate designs and tight tolerances.</p>
+                  <p>We utilize computer-controlled machines to create complex parts from stainless steel (SS), alloy steel (RS), and mild steel (MS). </p>
+                  {/* Our CNC technology ensures high accuracy and repeatability for intricate designs and tight tolerances. */}
                 </div>
                 <div className="serviceCards">
                   <span><HiCube /></span>

@@ -10,7 +10,7 @@ const Achievements = () => {
     const isInView = useInView(ref, { margin: "-200px" })
     const textVariants = {
         initial: {
-            x: -300,
+            x: -90,
             opacity: 0
         },
         animate: {
@@ -25,7 +25,7 @@ const Achievements = () => {
 
     const logosVariants = {
         initial: {
-            x: -400,
+            x: -90,
             opacity: 0
         },
         animate: {
