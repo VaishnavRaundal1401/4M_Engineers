@@ -13,10 +13,11 @@
             align-items: center;
             @include mobile{
                 flex-wrap: wrap;
+                justify-content: center;
             }
             h5{
                 margin: 40px;
-                margin-right: 10px;
+                margin-right: 20px;
             }
             .clientLogo{
                 display: flex;
@@ -47,13 +48,13 @@
                 @include mobile{
                     max-width: 100%;
                     align-items: center;
+                    text-align: center;
                 }
                 h1{
                     margin-bottom: 30px;
                 }
                 h5{
                     @include mobile{
-                        text-align: center;
                         margin-top: 10px;
                         margin-bottom: 20px;
                     }

@@ -23,43 +23,48 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55));
             z-index: 1; 
             // transition: 1s ease;
-            transition: background 4s ease;
+            transition: background 6s ease;
         }
 
         &:hover::before {
-            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55));
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
             // transition: 1s ease;
-            transition: background 4s ease;
+            transition: background 6s ease;
         }
     }
 
     .homeContainer {
         position: relative;
-        margin-left: 50px;
-        margin-top: 120px;
+        // margin-left: 50px;
+        // margin-top: 120px;
         color: rgb(163, 156, 156);
         z-index: 2;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         flex-wrap: wrap;
-        width: 60%;
+        width: 100%;
+        height: 100vh;
         @include mobile{
-            margin-top: 90px;
+            margin: 0 auto;
             width: 80vw;
+            justify-content: center;
         }
         h1 {
             color: white;
+            padding: 20px;
             @include mobile{
-                font-size: 46px;
+                font-size: 35px;
             }
         }
 
         span {
             margin-top: 30px;
             display: block;
+            margin-left: 20px;
             color: white;
             @include mobile{
                 display: none;
@@ -70,9 +75,13 @@
             margin-top: 30px;
             margin-right: 10px;
             padding: 10px 20px;
+            @include mobile{
+                padding: 7px 15px;
+            }
         }
 
         .contactbtn {
+            margin-left: 20px;
             background-color: rgb(46, 44, 44);
             color: white;
             border: 3px solid rgb(46, 44, 44);
